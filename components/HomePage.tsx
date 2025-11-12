@@ -120,7 +120,7 @@ const HomePage: React.FC<HomePageProps> = ({ onGetStarted }) => {
       { q: "Is my data and photo kept private?", a: "Absolutely. We prioritize your privacy. Your photos are only used for the AI analysis and are not stored or shared. All processing is secure and confidential." },
       { q: "What kind of photo should I upload?", a: "For the best results, upload a clear, full-body photo where your entire outfit is visible. Good lighting and a simple background help our AI focus on your style." },
       { q: "How does the virtual try-on work?", a: "Our advanced AI model analyzes your photo and the suggested clothing items. It then generates a new, hyper-realistic image of you wearing the outfit, matching your pose, body shape, and the original lighting." },
-      { q: "Is Couture AI free to use?", a: "Yes, you can get your initial set of AI-powered style suggestions and try on outfits completely free. We may introduce premium features in the future." },
+      { q: "Is Roopix AI free to use?", a: "Yes, you can get your initial set of AI-powered style suggestions and try on outfits completely free. We may introduce premium features in the future." },
   ];
 
   return (

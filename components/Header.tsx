@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = ({ onHomeClick }) => {
         <button onClick={onHomeClick} className="flex items-center focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-lg">
           <LogoIcon className="w-8 h-8 text-indigo-600 mr-3" />
           <h1 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">
-            Couture <span className="text-indigo-600">AI</span>
+            Roopix<span className="text-indigo-600"> AI</span>
           </h1>
         </button>
       </div>

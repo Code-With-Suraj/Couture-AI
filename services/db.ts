@@ -1,4 +1,4 @@
-const DB_NAME = 'CoutureAIDB';
+const DB_NAME = 'RoopixAIDB';
 const STORE_NAME = 'favorites';
 const DB_VERSION = 1;
 

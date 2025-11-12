@@ -18,7 +18,7 @@ const GeneratedImageViewer: React.FC<GeneratedImageViewerProps> = ({ images, out
     link.href = imageSrc;
     const mimeTypeMatch = imageSrc.match(/data:image\/(\w+);/);
     const extension = mimeTypeMatch ? mimeTypeMatch[1] : 'png';
-    link.download = `couture-ai-${outfitType.toLowerCase().replace(' ', '-')}-${index + 1}.${extension}`;
+    link.download = `roopix-ai-${outfitType.toLowerCase().replace(' ', '-')}-${index + 1}.${extension}`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

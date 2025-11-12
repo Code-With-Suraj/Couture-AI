@@ -10,7 +10,7 @@ const Auth: React.FC = () => {
        <div className="flex flex-col items-center justify-center mb-6">
         <LogoIcon className="w-12 h-12 text-indigo-600 mb-3" />
         <h1 className="text-2xl font-bold text-slate-800 tracking-tight text-center">
-            Welcome to Couture <span className="text-indigo-600">AI</span>
+            Welcome to Roopix<span className="text-indigo-600"> AI</span>
         </h1>
         <p className="text-slate-500 mt-1 text-center">Sign in or create an account to continue</p>
       </div>
